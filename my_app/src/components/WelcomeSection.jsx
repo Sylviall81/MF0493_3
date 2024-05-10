@@ -9,7 +9,6 @@ import {
     Image,
     Icon,
     createIcon,
-    IconProps,
     useColorModeValue,
   } from '@chakra-ui/react';
   

@@ -9,7 +9,6 @@ import {
     Image
   } from '@chakra-ui/react';
   import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
-  import { ReactNode } from 'react';
   import Logo from '../assets/logoipsum-327.svg'
   
  
