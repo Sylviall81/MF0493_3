@@ -8,7 +8,7 @@ import {
     VisuallyHidden,
     Image
   } from '@chakra-ui/react';
-  import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+  import { FaInstagram, FaLinkedin, FaYoutube, FaFacebook, FaDiscord, FaGitHub, FaWhatsapp, FaGithubSquare } from 'react-icons/fa';
   import Logo from '../assets/logoipsum-327.svg'
   
  
@@ -57,8 +57,8 @@ import {
         />
           <Text>© 2022 Chakra Templates. All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Twitter'} href={'#'}>
-              <FaTwitter />
+            <SocialButton label={'Linkedin'} href={'#'}>
+              <FaLinkedin />
             </SocialButton>
             <SocialButton label={'YouTube'} href={'#'}>
               <FaYoutube />
@@ -66,6 +66,16 @@ import {
             <SocialButton label={'Instagram'} href={'#'}>
               <FaInstagram />
             </SocialButton>
+            <SocialButton label={'Instagram'} href={'#'}>
+              <FaFacebook />
+            </SocialButton>
+            <SocialButton label={'Instagram'} href={'#'}>
+              <FaDiscord />
+            </SocialButton>
+            <SocialButton label={'Instagram'} href={'#'}>
+              <FaWhatsapp />
+            </SocialButton>
+            
           </Stack>
         </Container>
       </Box>

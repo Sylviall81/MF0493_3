@@ -23,7 +23,7 @@ function App() {
         </header>
 
         <container centerContent>
-          <Tabs>
+          <Tabs isFitted>
             <TabList>
               <Tab>Home</Tab>
               <Tab>Profiles</Tab>
